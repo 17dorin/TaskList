@@ -1,0 +1,13 @@
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.exe
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.deps.json
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.runtimeconfig.json
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.runtimeconfig.dev.json
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.dll
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\bin\Debug\netcoreapp3.1\TaskList.pdb
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.csprojAssemblyReference.cache
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.AssemblyInfoInputs.cache
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.AssemblyInfo.cs
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.csproj.CoreCompileInputs.cache
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.dll
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.pdb
+C:\Users\17dor\Desktop\GC Slns\TaskList\TaskList\obj\Debug\netcoreapp3.1\TaskList.genruntimeconfig.cache
