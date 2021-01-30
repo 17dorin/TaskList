@@ -55,6 +55,8 @@ namespace TaskList
                     else if (option == 6)
                     {
                         //Show all tasks belonging to a certain team member
+                        Console.Clear();
+                        DisplayUser(toDos);
                     }
                     else if (option == 7)
                     {
@@ -284,6 +286,50 @@ namespace TaskList
                 {
                     Console.Clear();
                     Console.WriteLine(e.Message);
+                }
+            }
+        }
+
+        public static void DisplayUser(List<ToDo> tasks)
+        {
+            string input;
+            bool validUser = false;
+
+            while (true)
+            {
+                input = GetInput("Which user do you want to see tasks for?");
+
+                try
+                {
+                    if (!string.IsNullOrEmpty(input) && !string.IsNullOrWhiteSpace(input))
+                    {
+                        int indexer = 1;
+                        foreach (ToDo task in tasks)
+                        {
+                            if (task.TeamMember.ToLower() == input.ToLower().Trim())
+                            {
+                                Console.WriteLine($"{indexer}. {task.TeamMember}: {task.Description} by {task.DueDate}");
+                                validUser = true;
+                                indexer++;
+                            }
+
+                        }
+
+                        if (!validUser)
+                        {
+                            throw new Exception("A user with that name was not found");
+                        }
+                        break;
+                    }
+                    else
+                    {
+                        throw new Exception("Input cannot be blank");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    break;
                 }
             }
         }
